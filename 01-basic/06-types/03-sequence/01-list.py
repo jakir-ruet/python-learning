@@ -22,3 +22,21 @@ print(myList)
 #list constructor
 myConstList = list(("Mango", "Banana", "Apple"))
 print(myConstList)
+
+myNestedList = [
+   "Azim",
+   "Rahim",[
+      "Samim",
+      "Touhid"
+   ],
+   "Alex",[
+      "Sony",
+      "Jasim"
+   ],
+   "Kibria"
+]
+
+print("This is my nested list", myNestedList)
+print("from index 1", myNestedList[1])
+print("from index 2", myNestedList[2])
+print("from index 2.1", myNestedList[2][1])
