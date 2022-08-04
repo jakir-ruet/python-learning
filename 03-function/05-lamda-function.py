@@ -14,3 +14,8 @@ def unknownFunction(n):
    return lambda a : a * n # n is unknown
 mulFunction = unknownFunction(5)
 print("Using the unknown number", mulFunction(5))
+
+#using the map
+myList = [3, 4, 2, 5, 7, 9]
+myNewList = list(map(lambda a : a * 2, myList))
+print("using map with lamda", myNewList)
