@@ -1,34 +1,34 @@
 # local scope
 
-def localScopeFunction():
+def local_scope_function():
     p = 350
     print('This is local scope', p)
 
 
-localScopeFunction()
+local_scope_function()
 
 
-def parentFunction():
+def parent_function():
     q = 450
 
-    def childFunction():
+    def child_function():
         print('This is the child function =', q)
-    childFunction()
+    child_function()
     print('This is local scope out of child function take from parent ', q)
 
 
-parentFunction()
+parent_function()
 
 
 # global scope
 a = 350
 
 
-def globalScopeFunction():
+def global_scope_function():
     print('output of global scope ', a)
 
 
-globalScopeFunction()
+global_scope_function()
 
 print('output of global scope after object ', a)
 
@@ -39,12 +39,12 @@ print('output of global scope after object ', a)
 b = 650
 
 
-def usingGlobalFunction():
+def using_global_function():
     global b
     b = 550
     print('using global in function', b)
 
 
-usingGlobalFunction()
+using_global_function()
 
 print('using global keyword after object', b)
