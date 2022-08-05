@@ -1,9 +1,9 @@
-list = ["Mango", "Banana", "Apple"]
-tuple = (2, 4, 3)
-dic = {'m > mango', 'b > banana', 'a > apple'}
-set = {'a', 'e', 'i', 'o', 'u'}
+myList = ["Mango", "Banana", "Apple"]
+myTuple = (2, 4, 3)
+myDict = {'m > mango', 'b > banana', 'a > apple'}
+mySet = {'a', 'e', 'i', 'o', 'u'}
 
-print(list)
-print(tuple)
-print(dic)
-print(set)
+print(myList)
+print(myTuple)
+print(myDict)
+print(mySet)
