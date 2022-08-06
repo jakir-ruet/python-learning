@@ -20,6 +20,11 @@ class Quadrilateral(Polygon):
         print('Quadrilateral')
 
 
+class Pentagon(Polygon):
+    def display_info(self):
+        print('Pentagon')
+
+
 t1 = Triangle([2, 3, 4])
 perimeter = t1.get_perimeter()
 print('Perimeter of Triangle', perimeter)
@@ -27,3 +32,7 @@ print('Perimeter of Triangle', perimeter)
 r1 = Quadrilateral([2, 3, 4, 5])
 perimeter = r1.get_perimeter()
 print('The area of Quadrilateral', perimeter)
+
+p1 = Pentagon([3, 4, 5, 6, 7])
+perimeter = p1.get_perimeter()
+print('perimeter of pentagon', perimeter)
