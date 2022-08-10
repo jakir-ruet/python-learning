@@ -4,8 +4,8 @@ class Employee:
     designation = ''
 
     # create a method
-    def setValue(self, empId, name, designation):
-        self.empId = empId
+    def set_value(self, emp_id, name, designation):
+        self.empId = emp_id
         self.name = name
         self.designation = designation
 
@@ -17,9 +17,9 @@ class Employee:
 # creating an object
 rahim = Employee()
 print(isinstance(rahim, Employee))  # checking for instance created
-rahim.setValue(54003, 'Jakir', 'Managing Director')
+rahim.set_value(54003, 'Jakir', 'Managing Director')
 rahim.show()
 
 karim = Employee()
-karim.setValue(54004, 'Momin', 'Director')
+karim.set_value(54004, 'Momin', 'Director')
 karim.show()
