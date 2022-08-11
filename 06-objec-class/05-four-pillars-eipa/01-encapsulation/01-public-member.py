@@ -1,17 +1,24 @@
-class PublicMember:
-    def __init__(self, emp_id, name, age):
-        self.Emp_Id = emp_id
-        self.Name = name
-        self.Age = age
+class ParentClass:
+    privateVariable = 0  # private variable
 
-    def emp_age(self):
-        # Accessing the public data member
-        print('Age = ', self.Age)
+    def __init__(self):
+        self.a = 'Jakir non private'
+        self.b = 'Jakir private'
+        # not working
+        self.privateVariable = "I am talking from"
 
 
-obj = PublicMember(101, "Jakir", 35)
-# Accessing the public data member
-print('Id = ', obj.Emp_Id)
-print('Name = ', obj.Name)
-# calling public member function of class
-obj.emp_age()
+class ChildClass(ParentClass):
+    def __init__(self):
+        # call the parent class
+        ParentClass.__init__(self)
+        print('call the non private member', self.a)
+        print('call the private member', self.b)
+        # working good
+        print('hello this private variable', self.privateVariable)
+
+
+obj = ParentClass()
+print(obj.a)
+print(obj.b)  # working good
+print(obj.privateVariable)  # working good
