@@ -7,7 +7,7 @@ class Employee:
     def show(self):         # instance method
         print('ID: ', self.Emp_Id, 'Name: ', self.Name, 'Age: ', self.Age)
 
-    # update the
+    # update the method
     def update(self, name, age):
         self.Name = name
         self.Age = age
