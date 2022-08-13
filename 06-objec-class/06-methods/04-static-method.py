@@ -20,6 +20,8 @@ class Employee:
 
 
 emp1 = Employee('Jakir', 35)
+print(emp1)
 emp1.details()
 emp2 = Employee.input_from_string('Jasim-45')
+print(emp2)
 emp2.details()
