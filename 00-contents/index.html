@@ -466,8 +466,8 @@
                <span class="fw-bold">Definition:</span> Class methods are methods that are called on the class itself, not on a specific object instance. Therefore, it belongs to a class level, and all class instances share a class method.
             </p>
             <ol>
-               <li><span class="fw-bold">Activity #1:</span> A class method is bound to the class and not the object of the class. It can access only class variables.</li>
-               <li><span class="fw-bold">Activity #2:</span> It can modify the class state by changing the value of a class variable that would apply across all the class objects.</li>
+               <li><span class="fw-bold">Activity:</span> A class method is bound to the class and not the object of the class. It can access only class variables.</li>
+               <li><span class="fw-bold">Activity:</span> It can modify the class state by changing the value of a class variable that would apply across all the class objects.</li>
             </ol>
          </div>
          <hr class="p-0 m-0">
@@ -477,8 +477,8 @@
                <span class="fw-bold">Definition:</span> A static method is a general utility method that performs a task in isolation. It takes neither a self nor a cls parameter. It can be called without an object for that class, using the class name directly, also it can neither modify object state nor class state.
             </p>
             <ol>
-               <li><span class="fw-bold">Activity #1:</span> It is bound to the class and not the object of the class. Therefore, we can call it using the class name.</li>
-               <li><span class="fw-bold">Activity #2:</span> It does not have access to the class and instance variables because it does not receive an implicit first argument like self and cls. Therefore, it cannot modify the state of the object or class.</li>
+               <li><span class="fw-bold">Activity:</span> It is bound to the class and not the object of the class. Therefore, we can call it using the class name.</li>
+               <li><span class="fw-bold">Activity:</span> It does not have access to the class and instance variables because it does not receive an implicit first argument like self and cls. Therefore, it cannot modify the state of the object or class.</li>
             </ol>
          </div>
          <hr class="p-0 m-0">
@@ -524,7 +524,7 @@
                <li><span class="fw-bold">Purpose:</span> Encapsulation provides well-defined, readable code, Prevents Accidental Modification or Deletion and Encapsulation provides security</li>
             </ol>
          </div>
-         <p class="fw-bold p-0 m-0">There are three types of access modifier/specifier</p>
+         <p class="fw-bold p-3">There are three types of access modifier/specifier</p>
             <ol>
                <li><span class="fw-bold">Public Members:</span> </li>
                <li><span class="fw-bold">Private Members:</span> single __</li>
@@ -571,6 +571,14 @@
             <ol>
                <li><span class="fw-bold">Parent class</span> is the class being inherited from, also called base class.</li>
                <li><span class="fw-bold">Child class:</span> is the class that inherits from another class, also called derived class.</li>
+            </ol>
+               <p class="p-0 m-0">
+                  <span class="fw-bold">Overriding:</span> A child class to provide a specific implementation of a method that is already provided by one of its parent classes. When a method in a child class has the same name, same parameters or signature and same return type(or subtype) as a method in its parent class, then the method in the child class is said to override the method in the parent class.
+               </p>
+            <ol>
+               <li><span class="fw-bold">Activity:</span> Method overriding cannot be done within a class. So,we need to derive a child class from a parent class. Hence, Inheritance is mandatory.</li>
+               <li><span class="fw-bold">Activity:</span> The method must have the same name as in the parent class</li>
+               <li><span class="fw-bold">Activity:</span> The method must have the same number of parameters as in the parent class.</li>
             </ol>
          </div>
          <hr class="p-0 m-0">
