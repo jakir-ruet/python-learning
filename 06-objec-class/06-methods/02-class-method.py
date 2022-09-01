@@ -1,4 +1,3 @@
-
 class Employee:
     designation = 'Sr. Manager'
 
@@ -14,7 +13,8 @@ class Employee:
 
     # instance method
     def show(self):
-        print('Emp Id:', self.Emp_Id, 'Name:', self.Name, 'Age:', self.Age, 'Designation:', self.designation)
+        print('Emp Id:', self.Emp_Id, 'Name:', self.Name,
+              'Age:', self.Age, 'Designation:', self.designation)
 
 
 jakir = Employee(101, 'Jakir', 35)

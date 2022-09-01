@@ -19,4 +19,3 @@ jakir.show()
 
 jasim = Employee.age_calculator('Jasim', 1986)
 jasim.show()
-
