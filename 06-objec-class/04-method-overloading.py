@@ -32,8 +32,10 @@ class MethodOverloading:
         for n in nums:
             mul = mul * n
             print(mul)
+
+
 obj = MethodOverloading()
 obj.product(3)
 obj.product(3, 4)
 obj.product(3, 4, 5)
-obj.product(3, 4, 5, 6) # here we can use any number of digit
+obj.product(3, 4, 5, 6)  # here we can use any number of digit
