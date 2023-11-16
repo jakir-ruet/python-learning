@@ -1,7 +1,26 @@
-mySet = {"Mango", "Banana", "Apple", "Mango", False, 45}
-print("This is set", mySet)
-print(type(mySet))
-print(len(mySet))
+# it is a unordered collection.
+# each element is unique/not dublicate and immutable.
 
-myConstSet = {"mango", "Banana", "Apple"}
-print("This is constructor set", myConstSet)
+myset = {"apple", "mango", "cherry", "banana"}
+print(myset)
+print(type(myset))
+print("Length of set ", len(myset))
+
+mysetUnique = {"apple", "mango", "cherry", "banana", "apple"}
+print("not allow dublicate", mysetUnique)
+
+mysetMix = {2, 3.40, "mango", 3 + 4j, True}
+print(mysetMix)
+
+# using the set() constructor to make a set
+consset = ("apple", "banana", "cherry")
+print(consset)
+
+# update the set
+fruits = {"mango", "berry", "banana", "apple"}
+addFruits = {"cherry", "apple"}
+fruits.update(addFruits)
+print(fruits)
+
+removeFruits = fruits.discard("mango")
+print(fruits)
