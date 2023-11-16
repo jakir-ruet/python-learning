@@ -11,3 +11,15 @@ while num_count_continue < 10:
    if num_count_continue == 5:
       continue
    print("Result ", num_count_continue)
+
+# nested loop
+num_parent_loop = 1
+while num_parent_loop <= 3:
+   num_child_loop = 1
+   while num_child_loop <= 5:
+      print("Parent value: " , num_parent_loop , "-" , "Child value: " , num_child_loop)
+      num_child_loop += 1
+   print("Child loop end here")
+   num_parent_loop += 1
+print("Parent loop end here")
+
