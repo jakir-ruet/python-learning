@@ -1,4 +1,4 @@
-# it is a unordered collection.
+# it is a unordered, unindex collection.
 # each element is unique/not dublicate and immutable.
 
 myset = {"apple", "mango", "cherry", "banana"}
