@@ -1,10 +1,10 @@
-msg = 'Hello, Python you are very smart'
+msg = "Hello, Python you are very smart"
 print(msg)
 a = "Hello World!"
 print(type(a))
 print(a)
 
-b = "Mohamed" + 'Ali'
+b = "Mohamed" + "Ali"
 print(b)
 
 c = "5" + "5"
@@ -14,14 +14,16 @@ print(c)
 # print(d)
 
 print("Allah " * 5)
-print(5 * '5')
+print(5 * "5")
 # print('50' * '50') #got an error
 # print('50' * 50.0) #got an error
 
 # formatting
-msg = "My score on Python: {0}, JavaScript: {1}, Java: {2}, Swift: {3}". format(6, 6.5, 5, 6)
+msg = "My score on Python: {0}, JavaScript: {1}, Java: {2}, Swift: {3}".format(
+    6, 6.5, 5, 6
+)
 print(msg)
-message = "If x = {x} and y = {y}, then x+y = {z}".format(x = 20, y = 300, z = 20 + 300)
+message = "If x = {x} and y = {y}, then x+y = {z}".format(x=20, y=300, z=20 + 300)
 print(message)
 
 # formatting using join method
@@ -40,4 +42,3 @@ print("My name is Jakie".lower())
 
 # split the alphabet in a world
 print("a, e, i, o, u".split(", "))
-
