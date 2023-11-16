@@ -1,9 +1,11 @@
+# its mapping type, key value pair ordered collection
+# not allow duplicates, mutable
 myDict = {
-   "brand": "Toyota",
-   "model": "To748",
-   "year": 1990,
-   "auth": True,
-   "colors": ["red", "brown", "blue"]
+    "brand": "Toyota",
+    "model": "To748",
+    "year": 1990,
+    "auth": True,
+    "colors": ["red", "brown", "blue"],
 }
 p = myDict["colors"]
 print("Print the object ", ["colors"])
