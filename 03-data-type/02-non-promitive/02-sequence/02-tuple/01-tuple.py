@@ -1,3 +1,4 @@
+# its ordered, unmutable, sequence type, indexed, allow dublicate
 myTuple = ["Mango", "Banana", "Apple", "Mango", True, 45]
 print(myTuple)
 print(len(myTuple))

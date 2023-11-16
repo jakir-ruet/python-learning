@@ -1,3 +1,5 @@
+# its sequence type collection
+# its indexed, ordered, mutable, allow dublicate
 myList = ["Mango", "Banana", "Apple", "Mango", True, 45]
 print(myList)
 print(myList[0])
@@ -23,18 +25,7 @@ print(myList)
 myConstList = list(("Mango", "Banana", "Apple"))
 print(myConstList)
 
-myNestedList = [
-    "Azim",
-    "Rahim", [
-        "Sami",
-        "Tommy"
-    ],
-    "Alex", [
-        "Sony",
-        "Jasim"
-    ],
-    "sammy"
-]
+myNestedList = ["Azim", "Rahim", ["Sami", "Tommy"], "Alex", ["Sony", "Jasim"], "sammy"]
 
 print("This is my nested list", myNestedList)
 print("from index 1", myNestedList[1])
