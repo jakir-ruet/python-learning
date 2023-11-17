@@ -1,4 +1,6 @@
 # using **arg argument, it will receive a dictionary of arguments
+# # using **arg argument, it will receive agrument as my wise.
+
 
 def my_function(country="Bangladesh"):
     print("I am from ", country)
