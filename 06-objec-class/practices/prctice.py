@@ -19,3 +19,7 @@ print(studentObject, "is ram location")
 studentObject.show()
 studentObject.update("Jasim", 12)
 studentObject.show()
+# we can print another way
+print(studentObject.Student_Id)
+print(studentObject.Student_Name)
+print(studentObject.Class_Name)
