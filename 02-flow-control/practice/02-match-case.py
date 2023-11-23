@@ -1,6 +1,6 @@
 # its introduce from python 3.10 version
-def weekendFinder(n):
-    match n:
+def weekendFinder(user_activity):
+    match user_activity:
         case 0:
             return "Saturday"
         case 1:
@@ -16,5 +16,9 @@ def weekendFinder(n):
         case 6:
             return "Friday"
         case _:
-            return "Invalid Number"
-    print(weekendFinder(3))
+            return "Invalid activity"
+
+
+print(weekendFinder(0))
+print(weekendFinder(3))
+print(weekendFinder(7))
