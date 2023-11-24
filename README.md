@@ -13,15 +13,15 @@ Python is a high-level, general-purpose programming language. Its design philoso
 ## Environment Setup
 
 <p>pip3 Install</p>
-```bash
+```
 pip3 install virtualenv
 ```
 <p>Create a virtual environment</p>
-```bash
+```
 virtualenv venv
 ```
 <p>Active the virtual environment</p>
-```bash
+```
 source venv/bin/activate
 ```
 
