@@ -12,17 +12,22 @@ Python is a high-level, general-purpose programming language. Its design philoso
 
 ## Environment Setup
 
-<p>pip3 Install</p>
 ```
+
 pip3 install virtualenv
+
 ```
-<p>Create a virtual environment</p>
+
 ```
+
 virtualenv venv
+
 ```
-<p>Active the virtual environment</p>
+
 ```
+
 source venv/bin/activate
+
 ```
 
 ## Courtesy of Jakir,
@@ -40,3 +45,7 @@ source venv/bin/activate
 [facebook-url]: https://www.facebook.com/GoLapisSoft/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=red
 [linkedin-url]: https://www.linkedin.com/company/lapis-soft/
+
+```
+
+```
