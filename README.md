@@ -10,6 +10,21 @@
 
 Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented and functional programming.
 
+## Environment Setup
+
+<p>pip3 Install</p>
+```bash
+pip3 install virtualenv
+```
+<p>Create a virtual environment</p>
+```bash
+virtualenv venv
+```
+<p>Active the virtual environment</p>
+```bash
+source venv/bin/activate
+```
+
 ## Courtesy of Jakir,
 
 <a href="https://www.linkedin.com/in/jakir-ruet/">LinkedIn</a>
