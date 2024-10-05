@@ -22,7 +22,10 @@ virtualenv venv
 source venv/bin/activate
 ```
 
-### Keyword
+- - -
+
+Keyword
+
 Keywords are reserved words with a predefined meaning. These words cannot be used as a function name, variable name, class name, etc. They are written in lower case except for True, False, and None and are case-sensitive.
 
 | Keyword  | Description                                                                                                     |
