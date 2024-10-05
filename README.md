@@ -82,7 +82,7 @@ While naming an identifier, a set of rules needs to be followed to have a valid 
 
 - - -
 
-Differences between Keywords and Identifiers
+Differences & Comparison between Keywords and Identifiers
 
 | Keyword                                                             | Identifier                                                           |
 | ------------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -179,12 +179,12 @@ Recursion is the process of defining something in terms of itself. A physical wo
 
 Recursion VS Iteration
 
-| SR No. | Recursion                                                   | Iteration                                         |
-| ------ | ----------------------------------------------------------- | ------------------------------------------------- |
-| 1      | Terminates when the base case becomes true.                 | Terminates when the condition becomes false.      |
-| 2      | Used with functions.                                        | Used with loops.                                  |
-| 3      | Every recursive call needs extra space in the stack memory. | Every iteration does not require any extra space. |
-| 4      | Smaller code size.                                          | Larger code size.                                 |
+| SL  | Recursion                                                   | Iteration                                         |
+| --- | ----------------------------------------------------------- | ------------------------------------------------- |
+| 1   | Terminates when the base case becomes true.                 | Terminates when the condition becomes false.      |
+| 2   | Used with functions.                                        | Used with loops.                                  |
+| 3   | Every recursive call needs extra space in the stack memory. | Every iteration does not require any extra space. |
+| 4   | Smaller code size.                                          | Larger code size.                                 |
 
 - - -
 
@@ -297,11 +297,11 @@ There are three types of access modifier/specifier
 2.  Private Members: single \_\_
 3.  Protected Members: double \_
 
-| SR No. | access modifier/specifier | Access from own class | Accessible from derived class | Accessible from object |
-| ------ | ------------------------- | --------------------- | ----------------------------- | ---------------------- |
-| 1      | Public Members            | Yes                   | Yes                           | Yes                    |
-| 2      | Private Members           | Yes                   | No                            | No                     |
-| 2      | Protected Members         | Yes                   | Yes                           | No                     |
+| SL  | access modifier/specifier | Access from own class | Accessible from derived class | Accessible from object |
+| --- | ------------------------- | --------------------- | ----------------------------- | ---------------------- |
+| 1   | Public Members            | Yes                   | Yes                           | Yes                    |
+| 2   | Private Members           | Yes                   | No                            | No                     |
+| 2   | Protected Members         | Yes                   | Yes                           | No                     |
 
 - - -
 
@@ -367,12 +367,12 @@ Data Structure & Algorithms
 
 Definition: It is a structure representation of data. The manupulation of storing the data in computer system's memory is known as data structure. Primarily data structure is two type Linear Data Structure and Non-Linear Data Structure.
 
-| SR No. | Linear Data Structure                         | Non-Linear Data Structure                     |
-| ------ | --------------------------------------------- | --------------------------------------------- |
-| 1      | Array, Stack, Queue & Linked List             | Graph, Trees & Map                            |
-| 2      | It is order manner                            | It is hierarchical manner                     |
-| 3      | More complexity increase if database increase | Less complexity increase if database increase |
-| 4      | Not memory optimize                           | Memory optimize                               |
+| SL  | Linear Data Structure                         | Non-Linear Data Structure                     |
+| --- | --------------------------------------------- | --------------------------------------------- |
+| 1   | Array, Stack, Queue & Linked List             | Graph, Trees & Map                            |
+| 2   | It is order manner                            | It is hierarchical manner                     |
+| 3   | More complexity increase if database increase | Less complexity increase if database increase |
+| 4   | Not memory optimize                           | Memory optimize                               |
 
 ## Courtesy of Jakir
 
