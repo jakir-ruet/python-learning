@@ -141,12 +141,12 @@ The particular kind of data item, as defined by the values it can take, the prog
 4.  Mapping Type: `dict`
 5.  Set Types: `set`, `frozenset`
 6.  Boolean Type: `bool`
-7.  Binary Types: `bytes`, `bytearray`, `memory-view`
+7.  Binary Types: `bytes` - No Changeable (Immutable > 0-256), `bytearray` - Changeable (Mutable > 0-256), `memory-view`
 8.  None Type: `NoneType`
 
 - - -
 
-Differences List, Tuple, Set, & Dictionary
+Comparison & Differences List, Tuple, Set, & Dictionary
 
 | List                                                                                              | Tuple                                                                                            | Set                                                                                            | Dictionary                                                                                        |
 | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
@@ -169,11 +169,32 @@ A function is a group of related statements that performs a specific task. Two t
 
 - - -
 
-Recursion Function
+Recursion
 
-Recursion is the process of defining something in terms of itself. A physical world example would be to place two parallel mirrors facing each other. Any object in between them would be reflected recursively. We know that a function can call other functions. It is even possible for the function to call itself. These types of construct are termed as recursive functions.
+Recursion is when a function calls itself until it reaches a base condition.
+```bash
+def factorial(n):
+    if n == 0:
+        return 1  # Base case
+    return n * factorial(n - 1)  # Recursive call
 
-Recursion VS Iteration
+print(factorial(5))  # Output: 120
+```
+
+Iteration
+
+Iteration uses loops (`for` or `while`) to repeat a process.
+```bash
+def factorial_iter(n):
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
+
+print(factorial_iter(5))  # Output: 120
+```
+
+Recursion vs Iteration
 
 | SL  | Recursion                                                   | Iteration                                         |
 | --- | ----------------------------------------------------------- | ------------------------------------------------- |
