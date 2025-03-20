@@ -123,11 +123,11 @@ Literals
 
 Literal is a raw data given in a variable or constant.
 
-1.  Numeric Literals Int, Float & Complex
-2.  String literals'', "", """"""
-3.  Boolean literals True & False
-4.  Special literals None
-5.  Literal Collections List literals, Tuple literals, Dict literals & Set literals
+1.  Numeric Literals `Int`, `Float` & `Complex`
+2.  String literals `''`, `""`, `""""""`
+3.  Boolean literals `True` & `False`
+4.  Special literals `None`
+5.  Literal `Collections` `List` literals, `Tuple` literals, `Dict` literals & `Set` literals
 
 - - -
 
@@ -135,14 +135,14 @@ Data Types
 
 The particular kind of data item, as defined by the values it can take, the programming language used, or the operations that can be performed for the purpose of real time use.
 
-1.  Text Type: str
-2.  Numeric Types: int, float, complex
-3.  Sequence Types: list, tuple, range
-4.  Mapping Type: dict
-5.  Set Types: set, frozenset
-6.  Boolean Type: bool
-7.  Binary Types: bytes, bytearray, memory-view
-8.  None Type: NoneType
+1.  Text Type: `str`
+2.  Numeric Types: `int`, `float`, `complex`
+3.  Sequence Types: `list`, `tuple`, `range`
+4.  Mapping Type: `dict`
+5.  Set Types: `set`, `frozenset`
+6.  Boolean Type: `bool`
+7.  Binary Types: `bytes`, `bytearray`, `memory-view`
+8.  None Type: `NoneType`
 
 - - -
 
