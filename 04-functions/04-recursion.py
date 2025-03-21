@@ -1,28 +1,9 @@
-# making the factorial
+# If any function call itself then its call recursion
+def myRecursion():
+   print("Hello, Recursion")
+   # Calling the function
+   myRecursion()
 
-num = 5
-
-
-def factorial(a):
-    if a == 1:
-        # terminate recursion
-        return 1
-    else:
-        # recursive call
-        return a * factorial(a - 1)
-
-
-print("The factorial of", num, "is", factorial(num))
-
-
-def countDown(n):
-    print("Enter the value of n", n)
-    if n == 0:
-        # terminate recursion
-        return
-    else:
-        # recursive call
-        countDown(n - 1)
-
-
-countDown(6)
+# Declare the function here
+myRecursion()
+# After 1000 call it will give error, due recursion limit is 1000.
