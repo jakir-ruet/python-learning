@@ -6,8 +6,8 @@ class Employee:
 
 # creating an object
 rahim = Employee()
-print(isinstance(rahim, Employee))  # checking for instance created
-print(rahim)    # checking the object
+print('Checking for instance created', isinstance(rahim, Employee))
+print('Checking the object', rahim)
 rahim.empId = 54003
 rahim.name = 'Rahim'
 rahim.designation = 'Sr. Developer'

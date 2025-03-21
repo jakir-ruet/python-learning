@@ -5,7 +5,10 @@
 Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented and functional programming.
 
 ## Environment Setup
-
+```bash
+python3 -m venv venv # Install virtual environment
+source venv/bin/activate
+```
 ```bash
 pip3 install virtualenv
 ```
@@ -169,7 +172,7 @@ Types
 Four types function such as 
 - Builtin, 
 - User Define, 
-- Lamda amd 
+- Lamda and 
 - Recursive function
 
 Higher Order Functions

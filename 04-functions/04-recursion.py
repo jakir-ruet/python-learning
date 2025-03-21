@@ -4,6 +4,6 @@ def myRecursion():
    # Calling the function
    myRecursion()
 
-# Print the function here
+# Declare the function here
 myRecursion()
 # After 1000 call it will give error, due recursion limit is 1000.
