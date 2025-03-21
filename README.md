@@ -162,7 +162,7 @@ Comparison & Differences List, Tuple, Set, & Dictionary
 
 Function
 
-A function is a group of related statements that performs a specific task. Two types of function. A function is a block of reusable code that performs a specific task. Functions allow you to organize your code, make it more modular, and avoid repetition. Functions can take inputs, process them, and return outputs.
+A function is a group of related statements designed to perform a specific task. There are two types of functions. A function is a reusable block of code that helps organize your program, making it more modular and reducing repetition. Functions can accept inputs, process them, and return outputs
 
 Types
 
